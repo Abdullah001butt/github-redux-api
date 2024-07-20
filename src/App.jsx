@@ -16,7 +16,6 @@ function App() {
   }
   return (
     <>
-      <h1>Hello</h1>
       <button onClick={() => dispatch(getAllData())}>Get Github Users</button>
       <ul className="user-list">
         {data.users.map((ele) => (
